@@ -1,0 +1,54 @@
+{
+  "load": 480,
+  "fuels":
+  {
+    "gasCost": 13.4,
+    "kerosineCost": 50.8,
+    "cO2Emission": 20,
+    "windEfficiency": 60
+  },
+  "powerplants": [
+    {
+      "name": "gasfiredbig1",
+      "powerplantType": 1,
+      "efficiency": 0.53,
+      "minimumPower": 100,
+      "maximumPower": 460
+    },
+    {
+      "name": "gasfiredbig2",
+      "powerplantType": 1,
+      "efficiency": 0.53,
+      "minimumPower": 100,
+      "maximumPower": 460
+    },
+    {
+      "name": "gasfiredsomewhatsmaller",
+      "powerplantType": 1,
+      "efficiency": 0.37,
+      "minimumPower": 40,
+      "maximumPower": 210
+    },
+    {
+      "name": "tj1",
+      "powerplantType": 2,
+      "efficiency": 0.3,
+      "minimumPower": 0,
+      "maximumPower": 16
+    },
+    {
+      "name": "windpark1",
+      "powerplantType": 0,
+      "efficiency": 1,
+      "minimumPower": 0,
+      "maximumPower": 150
+    },
+    {
+      "name": "windpark2",
+      "powerplantType": 0,
+      "efficiency": 1,
+      "minimumPower": 0,
+      "maximumPower": 36
+    }
+  ]
+}
